@@ -134,7 +134,7 @@
             var self = $(this),
                 ul = self.children('ul');
 
-            if (ul.length !== 0) {
+            if (ul.length !== 1) {
                 self.children('a').append('<span class="sub-nav">&#9654;</span>');
                 ul.prepend('<li class="sub-nav-back">&#9664; Back</span>');
             }
